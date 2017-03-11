@@ -55,43 +55,42 @@ for sen in lines:
 	
 
 # show the occurance of all words
-print 'All : '
-print wordCounter.most_common(10)
-'''
-for word, count in wordCounter.most_common(10):
+print '## All wordcount TOP-20: '
+#print wordCounter.most_common(20)
+
+for word, count in wordCounter.most_common(20):
     print('{0}: {1}'.format(word, count))
-'''
+
 
 
 # show the occurance of Noun words
-print 'Noun : '
-print wordCounter_Noun.most_common(10)
-'''
+print '## Noun words TOP-10: '
+#print wordCounter_Noun.most_common(10)
+
 for word, count in wordCounter_Noun.most_common(10):
     print('{0}: {1}'.format(word, count))
-'''
+
 
 # show the occurance of Adj words
-print 'Adj : '
-print wordCounter_Adj.most_common(10)
-'''
+print '## Adj words TOP-10: '
+#print wordCounter_Adj.most_common(10)
+
 for word, count in wordCounter_Adj.most_common(10):
     print('{0}: {1}'.format(word, count))
-'''
+
 
 
 # show the occurance of Adv words
-print 'Adv : '
-print wordCounter_adv.most_common(10)
-'''
+print '## Adv Words TOP-10: '
+#print wordCounter_adv.most_common(10)
+
 for word, count in wordCounter_adv.most_common(10):
     print('{0}: {1}'.format(word, count))
-'''
+
 
 # show the occurance of Other POS words
-print 'Other POS : '
-print wordCounter_Other.most_common(10)
-'''
+print '## Other POS words TOP-10: '
+#print wordCounter_Other.most_common(10)
+
 for word, count in wordCounter_Other.most_common(10):
     print('{0}: {1}'.format(word, count))
-'''
